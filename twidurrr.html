@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twidurrr</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#navbar {
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAAAIVBMVEXZ6//a6//X7P/b6v/Z7P3Z7PzZ6vzW7f/c7f/Z6vrY7P2APr+rAAACYElEQVR4nO2ZAW6CQBQFAQGr9z9wQdMIcVfZNnX/ezuTGKMC2XF+kGA3bDgPQ9f1W04h6TN0STCMCIatG+73qe2SpsxwmsZx/05u//gky2EoBYYYxueV4XaL3D5xOGL4AMOIYLgHw4iUGc43ng2X69vdVXksun5//f3q+8gari9ri2TpbgvE8L1hbY88NDxkaHmmObpPDF6v9vERhnHBEMPPr7iUvxrOXwuJ92PQ3W5fb349Mua9qmGH4XZbDEPib1h0pskeI7V1EIp+SzAMCYYYbo/ykQUX8xvD+12Z3HZHjhiXh+Fgb0hDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZOjf0N/Qf0r9DZlSVVpq6G/oP6X+hkypKi019DdkSlVpqaG/of+U+hsyparQ0MmQhqrQ0MmQhqrQ0MmQhqrQ0MmQhqrQ0MmQhqrQ0MmQhqrQ0MmQhqq0ZOg/pf6GTKkqLTX0N/SfUn9DplSVlhr6GzKlqrTU0N/Qf0r9DZlSVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWjoZEhDVWiIYXxamlJ/Q6ZUlZYa+huaT+nJ3TDn4WWYMsFQAQwxjM84jrWX8M9Mk7sihvpgqA+G+mCoD4b6vDYcQoIhhhjWB8N3hts7F7Vd0mCIIYb1wfDJ8Lr/b/THcHn0tV3SlBleLuMwnJ8N79R2SVNouDS0N/Rv6G54sZ/ScTXc/IHWD6vjaZ7n5ekakttq+/EYiTPN8h31p9Vw4eBRPkzR2r4BKQJWiZklF8AAAAAASUVORK5CYII=);
+		}
+
+		#left-sidebar {
+			background-color: lightblue;
+		}
+
+		#center {
+		background-color: white
+		}
+
+		#right-sidebar {
+			background-color: lightblue;
+		}
+
+		#footer {
+			background-color: yellow;
+		}
+
+		.post-image {
+			width: 100px;
+			height: 100px;
+			border-radius: 70%;
+		}
+
+		.post {
+			border-bottom: 5px solid black;
+		}
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 5px;
+		}
+		.navbar-li {
+			display: inline-block;
+			padding-right: 50px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+		.fa-earlybirds {
+			color: green;
+			font-size: 30px
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="navbar" class="col-12">
+			<ul id="navbar-ul">
+					<li class="navbar-li"><i class="fab fa-earlybirds"></i></li>
+					<li class="navbar-li"><a href="https://google.com">Home</a></li>
+					<li class="navbar-li"><a href="https://google.com">Posts</a></li>
+					<li class="navbar-li"><a href="https://google.com">Profile</a></li>
+					<li class="navbar-li"><a href="https://google.com">Notifications</a></li>
+				</ul>
+			<div>
+			<p> </p>
+		</div>
+
+		<div id="main-content" class="row">
+			<div id="left-sidebar" class="col-3">
+				<p> </p>
+				<img class="post-image" src="https://ih1.redbubble.net/image.477282583.9102/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u1.jpg">
+
+
+			</div>
+			<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col-5 img-side">
+						<img class="post-image" src="https://pbs.twimg.com/media/DGuKD35XcAIGbtV.jpg">
+					</div>
+					<div class="col-3 text-side">
+						      <p>Shane <a href="https://t.co/DRp8sdchR2"> @shalexandej</a> - 3/6/2018</p>
+						             <p>Hey demons. It's me, ya boiii #GHOULS</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-6 img-side">
+						<img class="post-image" src="http://pm1.narvii.com/6601/954dc87889d1db1c0846fe285a94fe7837a6b5bd_hq.jpg">
+					</div>
+					<div class="col-7 text-side">
+					<p>Ryan <a href="https://t.co/SxPi1gIU3Z">@ryansbergara</a> - 3/6/2018</p>
+					<p>  Maybe tonights the night *wheeze* </p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-3 img-side">
+						<img class="post-image" src="https://pbs.twimg.com/media/DGuKD35XcAIGbtV.jpg">
+					</div>
+					<div class="col-7 text-side">
+					<p>Shane <a href="https://t.co/DRp8sdchR2">@shalexandej</a> - 3/6/2018</p>
+					<p> Demons don't interact. So they aren't realllll #word</p>
+					</div>
+				</div>
+			</div>
+			<div id="right-sidebar" class="col-3">
+		<i class="fas fa-comment-alt"></i>
+<style type="text/css">
+	.fa-comment-alt {
+		color: orange;
+		font-size: 100px
+	}
+	.fa-earlybirds {
+		color: blue;
+		font-size:100px;
+	}
+</style>
+
+			</div>
+		</div>
+
+		<div id="footer" class="row">
+			<p>Comments from Fans
+			  @jacqueline: Where can I buy Merch? </p>
+		</div>
+	</div>
+</body>
+</html>
